@@ -1,30 +1,47 @@
 # MorelTaxClient
 
-CHECK one
+- This app is a hotel booking app.
 
+## User Stories
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+  **404:** As an user I can see a 404 page if I try to reach a page that does not exist so that I know it's my fault
+  
+  **500:** As an user I can see a 500 page if I try to reach a page that does exist so that I know it's not my fault
+  
+  **See Home Page:** As a user I can see all the activites offered by the hotel
 
-## Development server
+  **See Services Offered:** As a user I can see the hotels home page
+  
+  **See Contact Info:** As a user I can see all the apartments the hotel has to offer with thier amenities and common amenities 
+  
+  **See About Us:** As a user I can book a stay even as an anonymous-user
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  
+# Client
 
-## Code scaffolding
+## Routes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  - / - Homepage
+  - /services - services list
+  - /about - about us information
+  - /contact - all necessary contact info
+  
 
-## Build
+## Services
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Pages
 
-## Running unit tests
+- 404 Page
+- 500 Page
+- Home Page
+- Services Page
+- Contact Page
+- About Page
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Components
 
-## Running end-to-end tests
+- Navbar component
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## IO
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Guards

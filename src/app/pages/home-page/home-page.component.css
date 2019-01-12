@@ -1,0 +1,28 @@
+/*
+colors:
+Rosy Brown -> #B29E8D 
+Dim Gray Light ->  #786452
+Dim Gray Dark ->  #504A3F
+Light Steel Blue ->  rgb(240, 240, 240)
+Gray ->  #94928D
+Black ->  #000000
+*/
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body {
+    font-family: Avenir Next, Avenir, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+}
+  
+/* ---- layout ---- */

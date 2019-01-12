@@ -1,0 +1,90 @@
+/*
+colors:
+Rosy Brown -> #B29E8D 
+Dim Gray Light ->  #786452
+Dim Gray Dark ->  #504A3F
+Light Steel Blue ->  rgb(240, 240, 240)
+Gray ->  #94928D
+Black ->  #000000
+*/
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body {
+    font-family: Athelas, Palatino, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+  
+/* ---- layout ---- */
+.contain-page{
+    min-height: calc(100vh - 120px);
+    margin: 0;
+    padding: 0;
+}
+
+.logo-img{
+    height: 50px;
+    margin: auto 0;
+}
+
+.nav-bar{
+    background-color: #94928D; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: #94928D; 
+    margin: 0;
+    padding: 0;
+    color: rgb(240, 240, 240);
+}
+
+.footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.brand-footer{
+    color: #504A3F;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .nav-links a{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-links a{
+        font-size: 40px;
+    }
+}
